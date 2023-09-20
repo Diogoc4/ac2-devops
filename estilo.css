@@ -30,9 +30,7 @@ body {
 .sec-geral {
     border: 5px solid rgb(255, 0, 149);
     background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 15px;
-    margin: 95px 200px;
+    padding: 105px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -41,8 +39,7 @@ body {
 .foto-perfil {
     border: 5px solid black;
     border-radius: 50%;
-    width: 70%;
-    padding: 20px;
+    width: 75%;
     margin: 10px;
 }
 
@@ -51,7 +48,7 @@ body {
     border: 1px solid rgb(245, 69, 0);
     color: rgb(0, 0, 0);
     padding: 25px;
-    height: 245px;
+    height: 226px;
     width: 200px;
     margin: 1%;
     font-size: 10px;
@@ -63,4 +60,6 @@ body {
     color: rgb(209, 209, 209);
     text-align: center;
     text-shadow: 0 0 10px black;
+    font-size: 15px;
+    padding: 10px;
 }
