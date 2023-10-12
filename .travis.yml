@@ -5,4 +5,4 @@ install: "pip install --upgrade pip"
 before_script:
   - cd src
 script:
- - python testes.py
+ - python fibonnaci.py
