@@ -6,3 +6,4 @@ before_script:
   - cd src
 script:
  - python calculadora.py
+ - pyhton verdadeirooufalso.py
