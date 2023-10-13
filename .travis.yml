@@ -5,5 +5,4 @@ install: "pip install --upgrade pip"
 before_script:
   - cd src
 script:
- - python calculadora.py
  - pyhton verdadeirooufalso.py
