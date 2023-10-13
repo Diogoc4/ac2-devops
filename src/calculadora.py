@@ -1,31 +1,36 @@
-def calculadora():
-    print("Selecione a operação:")
-    print("1. Adição")
-    print("2. Subtração")
-    print("3. Multiplicação")
-    print("4. Divisão")
+def soma(x, y):
+   return x + y
 
-    escolha = input("Digite sua escolha(1/2/3/4): ")
+def subtracao(x, y):
+   return x - y
 
-    num1 = int(input("Digite o primeiro número: "))
-    num2 = int(input("Digite o segundo número: "))
+def multiplicacao(x, y):
+   return x * y
 
-    if escolha == '1':
-        print(num1, "+", num2, "=", num1 + num2)
+def divisao(x, y):
+   return x / y
 
-    elif escolha == '2':
-        print(num1, "-", num2, "=", num1 - num2)
+print("Selecione a operação:")
+print("1.Soma")
+print("2.Subtração")
+print("3.Multiplicação")
+print("4.Divisão")
 
-    elif escolha == '3':
-        print(num1, "*", num2, "=", num1 * num2)
+escolha = input("Escolha a operação(1/2/3/4):")
 
-    elif escolha == '4':
-        if num2 != 0:
-            print(num1, "/", num2, "=", num1 / num2)
-        else:
-            print("Erro! Divisão por zero não é permitida.")
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
 
-    else:
-        print("Entrada Inválida")
+if escolha == '1':
+   print(num1,"+",num2,"=", soma(num1,num2))
 
-calculadora()
+elif escolha == '2':
+   print(num1,"-",num2,"=", subtracao(num1,num2))
+
+elif escolha == '3':
+   print(num1,"*",num2,"=", multiplicacao(num1,num2))
+
+elif escolha == '4':
+   print(num1,"/",num2,"=", divisao(num1,num2))
+else:
+   print("Entrada inválida")
