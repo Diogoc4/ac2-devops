@@ -3,6 +3,8 @@ python:
  - "3.9"
 install: "pip install --upgrade pip"
 before_script:
-  - cd src
+ - cd src
 script:
+ - python fibonacci.py
  - pyhton verdadeirooufalso.py
+ - python calculadora.py
