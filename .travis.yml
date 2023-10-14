@@ -8,3 +8,5 @@ script:
  - python fibonacci.py
 
  - python dataehora.py
+
+  - python tabuada.py
