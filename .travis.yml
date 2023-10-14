@@ -9,4 +9,4 @@ script:
 
  - python dataehora.py
 
-  - python tabuada.py
+ - python tabuada.py
